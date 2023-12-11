@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/editDate3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="The date"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/editStartTime3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/editDate3"
+        android:hint="Start Time"
+        android:minHeight="48dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/editEndTime3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/editStartTime3"
+        android:hint="End time"
+        android:minHeight="48dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:numStars="5"
+            android:stepSize="1" />
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rate Appointment" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/appointmentInbox"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/appointmentPatientUid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:text="Patient UID"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/appointmentStartTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appointmentPatientUid"
+            android:layout_marginTop="12dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/appointmentEndTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appointmentStartTime"
+            android:layout_marginTop="12dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/appointmentShiftId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appointmentEndTime"
+            android:layout_marginTop="12dp"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/appointmentAcceptBtn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="22dp"
+            android:text="Accept" />
+
+        <Button
+            android:id="@+id/appointmentRejectBtn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="25dp"
+            android:text="Reject" />
+
+        <TextView
+            android:id="@+id/appointmentStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appointmentShiftId"
+            android:layout_marginTop="12dp"
+            android:text="TextView" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/appointmentStatus"
+            android:layout_marginTop="7dp"
+            android:background="?android:attr/listDivider"
+            android:backgroundTint="@color/black" />
+
+        <Button
+            android:id="@+id/info"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/appointmentAcceptBtn"
+            android:layout_alignEnd="@+id/appointmentAcceptBtn"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:text="Info"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

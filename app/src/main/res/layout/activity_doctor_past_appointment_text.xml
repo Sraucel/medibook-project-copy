@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/editDate4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="The date"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/editStartTime4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/editDate4"
+        android:hint="Start Time"
+        android:minHeight="48dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/editEndTime4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/editStartTime4"
+        android:hint="End time"
+        android:minHeight="48dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/docRating"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/editEndTime4"
+        android:hint="rating"
+        android:minHeight="48dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+
+
+
+
+
+</LinearLayout>

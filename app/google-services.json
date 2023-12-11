@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "451622733637",
+    "project_id": "medibook-cc310",
+    "storage_bucket": "medibook-cc310.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451622733637:android:74859d29ab8b43499e202c",
+        "android_client_info": {
+          "package_name": "com.example.medibook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOvS5kLpiUFkaWgkhb8obqBRlf-lc5m8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
