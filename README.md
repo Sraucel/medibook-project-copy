@@ -7,8 +7,13 @@ All functions working as intended
 
 Contributors :
 Cheung, Mathias
+
 Gavura, Lucas
+
 Guo, Ryan
+
 Liu, Xing
+
 Ying, Shaoze
+
 Zhang, August
